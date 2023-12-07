@@ -1,0 +1,17 @@
+# NuxGame test task
+
+## 1. Preparation
+   ```bash
+   git clone https://github.com/mykola-ahiienko/nuxgame-test-task.git
+   cd nuxgame-test-task
+   composer install
+```
+## 2. Tests
+   ```bash
+  vendor/bin/phpunit tests/NextMinNumberFinderTest.php
+```
+## 3. Usage
+   ```bash
+   php test.php
+```
+
